@@ -27,12 +27,12 @@ while [ -n "$1" ]; do
 done
 
 if [ -z "$process_name" ]; then
-    echo "Error: Process name (-n) not specified"
-    exit 1
+	echo "Error: Process name (-n) not specified"
+	exit 1
 fi
 if [ -z "$process_priority" ]; then
-    echo "Error: Priority (-p) not specified"
-    exit 1
+	echo "Error: Priority (-p) not specified"
+	exit 1
 fi
 
 if [ -z "$time_sleep" ]; then
