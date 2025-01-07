@@ -6,7 +6,6 @@
 **Clone repo**
 ```
 git clone https://github.com/callmemikhail/mpc
-
 ```
 or, you can clone only script
 ```
