@@ -5,7 +5,7 @@
 
 **Clone repo**
 ```
-git clone https://github.com/callmemikhail/mpc
+git clone https://github.com/callmemikhail/mpc.git
 ```
 **Grant execute permissions**
 ```
