@@ -7,11 +7,6 @@
 ```
 git clone https://github.com/callmemikhail/mpc
 ```
-or, you can clone only script
-```
-wget https://github.com/callmemikhail/mpc/blob/main/mini-process-controller.sh
-```
-
 **Grant execute permissions**
 ```
 chmod +x mini-process-controller.sh
