@@ -4,21 +4,20 @@
 while [ -n "$1" ]; do
     case "$1" in	
         -h|--help) 
-			echo "[-t] or [--time] Enter time period"
-			echo "[-n] or [--name] Enter process name"
-		    echo "[-p] or [--priority] Enter process priority"
-			exit 0;;
+		echo "[-t] or [--time] Enter time period"
+		echo "[-n] or [--name] Enter process name"
+		echo "[-p] or [--priority] Enter process priority"
+		exit 0;;
             
         -n|--name) 
-            process_name="$2"
-            shift 2;;
-            
+            	process_name="$2"
+            	shift 2;;
         -p|--priority) 
-            process_priority="$2"
-            shift 2;;
-		-t|--time)
-			time_sleep="$2"
-			shift 2;;		
+            	process_priority="$2"
+            	shift 2;;
+	-t|--time)
+		time_sleep="$2"
+		shift 2;;		
 		
 		*) 
             echo "Unknown parameter: $1"
