@@ -9,7 +9,7 @@ git clone https://github.com/callmemikhail/mpc
 ```
 or, you can clone only script
 ```
-git clone https://github.com/callmemikhail/mpc/mini-process-controller.sh
+wget https://github.com/callmemikhail/mpc/mini-process-controller.sh
 ```
 
 **Grant execute permissions**
