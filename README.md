@@ -9,7 +9,7 @@ git clone https://github.com/callmemikhail/mpc.git
 ```
 **Grant execute permissions**
 ```
-chmod +x mini-process-controller.sh
+chmod u+x mini-process-controller.sh
 ```
 
 ### Usage:
