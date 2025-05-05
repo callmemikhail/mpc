@@ -6,7 +6,7 @@
 **Clone repo**
 ```
 git clone https://github.com/callmemikhail/mpc.git
-cd mini-prc-ctl
+cd mpc/mini-prc-ctl
 ```
 **Grant execute permissions**
 ```
