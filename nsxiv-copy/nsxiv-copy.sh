@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-echo "$0" "started;"
-
 while [ -n "$1" ]; do
     case "$1" in
         -h|--help)
@@ -30,6 +28,9 @@ for dir_name in "$work_dir" "$targ_dir"; do
     fi
 done
 
-cp $(nsxiv -rto "$work_dir") "$targ_dir"
-
-
+mapfile -t files < <(nsxiv -rto "$work_dir")
+if [ ${#files[@]} -gt 0 ]; then
+    cp -- "${files[@]}" "$targ_dir/"  
+else
+    echo "No files selected."
+fi
