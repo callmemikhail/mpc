@@ -8,7 +8,7 @@
 git clone https://github.com/callmemikhail/mpc.git
 cd mpc/mini-prc-ctl
 ```
-**Grant execute permissions**
+**Execute permissions**
 ```
 chmod u+x mini-process-controller.sh
 ```
