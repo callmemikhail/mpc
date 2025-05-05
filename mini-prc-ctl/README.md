@@ -1,13 +1,6 @@
 
 # Mini-process-priotity-controller
 
-### Installation:
-
-**Clone repo**
-```
-git clone https://github.com/callmemikhail/mpc.git
-cd mpc/mini-prc-ctl
-```
 **Execute permissions**
 ```
 chmod u+x mini-process-controller.sh
