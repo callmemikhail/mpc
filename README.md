@@ -1,5 +1,5 @@
 
-# Mini-process-priotity-controller
+# Bash Scripts Collection
 
 ### Installation:
 
@@ -7,12 +7,16 @@
 ```
 git clone https://github.com/callmemikhail/mpc.git
 ```
-**Grant execute permissions**
-```
-chmod u+x mini-process-controller.sh
-```
 
 ### Usage:
+
+```
+./nsxiv-copy.sh -d . ~/Downloads
+```
+small bash util, nsxiv copy
+* [-d] or [--directory] specify the directory
+* [-t] or [--target] specify the destination directory
+
 ```
 ./mini-process-controller.sh -n librewolf -p -20 -t 10
 ```
